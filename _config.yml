@@ -10,11 +10,8 @@ author: Jesse
 email:
 # language: en
 language: zh-Hans
-# language: fr-FR
 # language: zh-hk
 # language: zh-tw
-# language: ru
-# language: de
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -95,9 +92,7 @@ deploy:
   repo: git@github.com:jcpplus/jcpplus.github.io.git
   branch: master
 
-plugins:
-- hexo-generator-feed
-- hexo-tag-codepen
+#plugins:
 
 # NexT 主题相关配置 ==========================
 duoshuo_shortname: uloveapple
